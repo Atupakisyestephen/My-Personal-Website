@@ -20,7 +20,7 @@
 	<div class="profile">
 		<img class="pic" src="images/img3.jpg" alt="profile">
 		<h2>Hello.</h2>
-		<p>I am a student at Mbeya University of Science and Technology (MUST), <br>a Bachelor's Degree Computer Science Student and a web developer.<br> I 🧡 watching movies and playing video games.</p>	
+		<p>I recently graduated from Mbeya University of Science and Technology (MUST), <br> with a Bachelor's Degree in Computer Science. I'm also a web developer and <br> I 🧡 watching movies and playing video games.</p>	
 	</div>
 	<hr>
 	<div class="skills">
@@ -53,9 +53,15 @@
 	<a class="footer-link" href="https://www.linkedin.com/in/atupakisye/">LinkedIn</a>
 	<a class="footer-link" href="https://instagram.com/eliasatupakisye?igshid=MTA0ZTI1NzA=">Instagram</a>
 	<a class="footer-link" href="https://github.com/Atupakisyestephen">Github</a>
-	<p class="copyright">© 2022 Atupakisye Elias @ Mbeya University Of Science and Technology.</p>
+	<p class="copyright">© <span id="current-year"></span> Atupakisye Elias | All rights reserved.</p>
+
 </div>
+
+<script>
+  document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
 </body>
+
 </html>
 
 
